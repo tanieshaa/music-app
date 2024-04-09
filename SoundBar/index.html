@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoundBar - Web Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="items/favicon0.png" />
+  </head>
+  <body>
+    <div class="container flex bg-bl">
+      <div class="left">
+        <div class="close">
+          <img src="items/close.svg" alt="" />
+        </div>
+        <div class="icon flex align">
+          <img src="items/sound.svg" class="soundSvg invert" alt="sound" />
+          <p class="logo">SoundBar</p>
+        </div>
+        <div class="home border bg-gr">
+          <ul>
+            <li><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-regular fa-compass"></i>Discover</li>
+            <li><i class="fa-regular fa-heart"></i>Favorites</li>
+          </ul>
+        </div>
+        <div class="library border bg-gr">
+          <div class="heading">
+            <img src="items/lib.svg" class="libSvg invert" alt="lib" />
+            <h3>My Library</h3>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+        </div>
+        <div class="footer">
+          <div>
+            <a href="/terms-of-use" title="Terms of use">Legal</a>&nbsp;⁃
+            <a href="/pages/privacy" title="Privacy policy">Privacy</a>&nbsp;⁃
+            <a href="/pages/cookies" title="Cookie Policy">Cookie Policy</a
+            >&nbsp;⁃
+            <a href="/imprint" title="Company information">Imprint</a>&nbsp;⁃
+            <a href="/blog" target="_blank" title="SoundCloud blog">Blog</a
+            >&nbsp;⁃ <a href="/charts/top" title="Charts">Charts</a>&nbsp;
+          </div>
+        </div>
+      </div>
+      <div class="right bg-gr">
+        <div class="header">
+          <div class="nav">
+            <img src="items/hamburger.svg" alt="ham" />
+          </div>
+          <div class="search">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input
+              type="text"
+              name="search"
+              placeholder="Search"
+              class="pholder"
+            />
+          </div>
+          <div class="btns">
+            <button class="btn1">SignUp</button>
+            <button class="btn2">Login</button>
+          </div>
+        </div>
+        <div class="playlist">
+          <h1>Currently Trending</h1>
+          <div class="current flex justify align">
+            <img
+              src="https://th.bing.com/th/id/R.bc9726215d58e4de8d25dcee6a0f98eb?rik=S2AmiTJ9952VlQ&riu=http%3a%2f%2fcuatower.com%2fwp-content%2fuploads%2f2019%2f09%2fcharts-share-fb-hot100-1024x538.jpg&ehk=prc0lbwhesi8l1Y4uDAjdPleoAU1ACrw5rcRU0HKK%2fo%3d&risl=&pid=ImgRaw&r=0"
+              alt="trending"
+            />
+          </div>
+          <div class="cardContainer">
+            <div class="cards border">
+              <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <img
+                src="https://lh3.googleusercontent.com/HTa5gwB56DqGNBr7VTQAQLNwMR5NrQ9ujnJ_faRdHz0QlqginFhXXCS7Hc1dO_6Ear0XXYePrUWFLxo4"
+                alt="tvGirl"
+              />
+              <h2>Lovers Rock</h2>
+              <p>TV GIRL</p>
+            </div>
+
+            <div class="cards border">
+              <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <img
+                src="https://www.fashionably-early.com/wp-content/uploads/2018/12/i-am-i-was.jpg"
+                alt="21savage"
+              />
+              <h2>I AM > I WAS</h2>
+              <p>21 Savage</p>
+            </div>
+
+            <div class="cards border">
+              <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <img
+                src="https://th.bing.com/th/id/R.64e3bf198bf9d0826ad7786d7c4bff77?rik=mDI%2bkgCkdmFQ3Q&riu=http%3a%2f%2fhiphop-n-more.com%2fwp-content%2fuploads%2f2011%2f09%2fdrake-take-care.jpg&ehk=Yw%2f9%2fxFMj7Z2DVmx8fCE5Mozzno%2bvapMqVprRcFzb%2bo%3d&risl=&pid=ImgRaw&r=0"
+                alt="drake"
+              />
+              <h2>Take Care</h2>
+              <p>Drake</p>
+            </div>
+
+            <div class="cards border">
+              <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <img
+                src="https://images.genius.com/77eb618794b8fd30749574d77ff98635.1000x1000x1.jpg"
+                alt="Jason"
+              />
+              <h2>Wiggle</h2>
+              <p>Jason Derulo</p>
+            </div>
+
+            <div class="cards border">
+              <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+              <img
+                src="https://e.snmc.io/i/600/s/4800e91b54e11cc9c67a2652156cbfa6/11531647/y-vultures-Cover-Art.jpg"
+                alt="kanye"
+              />
+              <h2>VULTURES 1</h2>
+              <p>Kanye West</p>
+            </div>
+          </div>
+          <div class="playBar">
+            <div class="seekBar">
+              <div class="circle"></div>
+            </div>
+            <div class="aboveBar">
+              <div class="songInfo"></div>
+              <div class="playBtns flex justify">
+                <i width="30px" class="fa-solid fa-backward-step prev"></i>
+                <img width="30px" id="play" src="items/play.svg" alt="" />
+                <i width="30px" class="fa-solid fa-forward-step next"></i>
+              </div>
+              <div class="songTime"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
